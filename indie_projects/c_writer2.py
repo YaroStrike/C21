@@ -90,7 +90,7 @@ with open(c_name, 'r') as c_read:
     while main_line < 3+add_var_cycles:
         print(str(main_line+1)+"|    "+lines[main_line])
         main_line+=1
-print(f"\nОбъявлений типа5 string: {strings_declared}")
+print(f"\nОбъявлений типа string: {strings_declared}")
 print(f"Объявлений типа char: {chars_declared}")
 print(f"Объявлений типа int: {ints_declared}")
 print(f"Объявлений типа float: {floats_declared}")
